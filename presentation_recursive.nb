@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    585578,       9717]
-NotebookOptionsPosition[    583368,       9675]
-NotebookOutlinePosition[    584042,       9699]
-CellTagsIndexPosition[    583962,       9694]
+NotebookDataLength[    586831,       9744]
+NotebookOptionsPosition[    584556,       9702]
+NotebookOutlinePosition[    585200,       9725]
+CellTagsIndexPosition[    585120,       9720]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -78,19 +78,6 @@ Cell[TextData[{
  "Brad Klee",
  ")"
 }], "Text",ExpressionUUID->"9485ad39-2faa-4b2a-b269-f22f0316f705"],
-
-Cell[TextData[{
- StyleBox["AFFILIATION: ", "Bold",
-  LineColor->RGBColor[1., 0.5058823529411764, 0.],
-  FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
-  BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
-  GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
-  FontColor->RGBColor[1., 0.5058823529411764, 0.]],
- "Team Bragon"
-}], "Text",
- CellChangeTimes->{{3.929625675185741*^9, 
-  3.929625675577914*^9}},ExpressionUUID->"50314038-6b5d-4ff1-8f91-\
-eb5e09c4fb8a"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -2527,7 +2514,7 @@ BEEQBEEQBEEQBGEC8/8AGMO2hg==
         DateObject[{2024, 7, 9, 20, 8, 44.}, "Instant", "Gregorian", None]}|>],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
-  ImageSize->{409.36279296875216`, Automatic},
+  ImageSize->{426.9078979492209, Automatic},
   ImageSizeRaw->{410., 409.},
   PlotRange->{{0, 410.}, {0, 409.}}]],
  TextAlignment->Center,ExpressionUUID->"cda8cd94-17dc-42aa-8288-37249fda15a6"],
@@ -2549,27 +2536,45 @@ Cell["", "SlideShowNavigationBar",
  CellTags->
   "SlideShowHeader",ExpressionUUID->"e819719a-311e-4030-b2fe-74dfc05ee2ca"],
 
-Cell[TextData[{
- StyleBox["SUMMARY OF RESULTS: ", "Bold",
-  LineColor->RGBColor[1., 0.5058823529411764, 0.],
-  FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
-  BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
-  GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
-  FontColor->RGBColor[1., 0.5058823529411764, 0.]],
- "Implemented a stack-based recursive function from scratch. We implemented \
-shifters in our nestedly recursive functions that find fascinating patterns \
-such as branches, flowers and corals."
-}], "Text",ExpressionUUID->"6e2a07bc-8092-4721-b122-c0e6fac52af2"],
-
-Cell[TextData[StyleBox["ADDITIONAL CONTENT: ", "Bold",
+Cell[TextData[StyleBox["1. Implemented a stack-based recursive function from \
+scratch", "Subsubsection",
  LineColor->RGBColor[1., 0.5058823529411764, 0.],
  FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
  BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
  GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
- FontColor->RGBColor[1., 0.5058823529411764, 0.]]], "Text",ExpressionUUID->\
-"33c3e667-8fdf-4113-a1a3-d59147328617"],
+ FontColor->RGBColor[1., 0.5058823529411764, 0.]]], "Text",
+ CellChangeTimes->{{3.9297005224948483`*^9, 3.929700523067268*^9}, {
+  3.929700584892231*^9, 3.9297006130099993`*^9}, {3.929700661069858*^9, 
+  3.929700681259359*^9}, {3.929701015181375*^9, 
+  3.9297010177967443`*^9}},ExpressionUUID->"6e2a07bc-8092-4721-b122-\
+c0e6fac52af2"],
 
-Cell["Call Graphs of Fibonacci: f(n) = f(n - 1) + f(n -2)", "Text",ExpressionUUID->"7f13bdd4-fd29-484e-a6b9-7a197f9255a7"],
+Cell["\<\
+Avoid recursion depth limit errors
+Better introspection in memory allocation & computational complexity\
+\>", "Text",
+ CellChangeTimes->{
+  3.929700650609281*^9, {3.929700783310664*^9, 3.9297008013629417`*^9}, {
+   3.929700990793359*^9, 3.92970101077772*^9}, {3.9297011688231163`*^9, 
+   3.929701178940905*^9}},ExpressionUUID->"28ebebd7-364c-4080-937e-\
+8a33ba56230f"],
+
+Cell[TextData[StyleBox["2. Call Graphs", "Subsubsection",
+ LineColor->RGBColor[1., 0.5058823529411764, 0.],
+ FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
+ BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
+ GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
+ FontColor->RGBColor[1., 0.5058823529411764, 0.]]], "Text",
+ CellChangeTimes->{{3.929700640165201*^9, 
+  3.9297006455261383`*^9}},ExpressionUUID->"33c3e667-8fdf-4113-a1a3-\
+d59147328617"],
+
+Cell["fibonacci[n] := fibonacci[n - 1] + fibonacci[n - 2]", "Text",
+ CellChangeTimes->{
+  3.929700650609281*^9, {3.929700783310664*^9, 3.9297008013629417`*^9}, {
+   3.929701224261392*^9, 
+   3.929701224396248*^9}},ExpressionUUID->"7f13bdd4-fd29-484e-a6b9-\
+7a197f9255a7"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -2921,14 +2926,28 @@ Z67hJADA7WxeGZVaAAAAAAAAAAAAAJb7/wEpn136
           None]}|>],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
-  ImageSize->{488.96110026041623`, Automatic},
+  ImageSize->{447.53076171874955`, Automatic},
   ImageSizeRaw->{360., 338.},
   PlotRange->{{0, 360.}, {0, 338.}}]], "Text",ExpressionUUID->"715d0614-71e3-\
 4b19-942b-79a73480f896"],
 
-Cell["\<\
-Complexity Emerges from Nesting: f(n) = 1 + f(n - f(SplitShift(n)))\
-\>", "Text",ExpressionUUID->"e754ff30-6564-4ea0-a01d-1fea233fc181"],
+Cell[TextData[StyleBox["3. Shifters", "Subsubsection",
+ LineColor->RGBColor[1., 0.5058823529411764, 0.],
+ FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
+ BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
+ GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
+ FontColor->RGBColor[1., 0.5058823529411764, 0.]]], "Text",
+ CellChangeTimes->{{3.9297007627793207`*^9, 3.929700772731318*^9}, {
+  3.9297009091117268`*^9, 3.9297009138005247`*^9}, {3.9297010587239037`*^9, 
+  3.929701059842381*^9}},ExpressionUUID->"e754ff30-6564-4ea0-a01d-\
+1fea233fc181"],
+
+Cell["F[n] = 1 + F[n - F[SplitShift[n]]]", "Text",
+ CellChangeTimes->{
+  3.9297007800463142`*^9, {3.929700834907983*^9, 3.929700838628978*^9}, {
+   3.92970089029356*^9, 
+   3.929700906900105*^9}},ExpressionUUID->"fe22aaec-0666-471a-b0b4-\
+9d05eb0d4834"],
 
 Cell[TextData[Cell[BoxData[
  GraphicsBox[
@@ -9661,22 +9680,29 @@ Dg4ODg4ODg4ODg6OTx3/H7JSfq4=
 4a64-b7d0-86991a546810"],
 
 Cell[TextData[{
- StyleBox["FUTURE WORK: ", "Bold",
+ StyleBox["3. Future Work", "Subsubsection",
   LineColor->RGBColor[1., 0.5058823529411764, 0.],
   FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
   BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
   GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
   FontColor->RGBColor[1., 0.5058823529411764, 0.]],
- "Optimise our implementation of the stack-based recursive function in terms \
-of memory allocation and runtime, and explore even simpler arithmetic \
-operations."
-}], "Text",ExpressionUUID->"c68a4ced-f50c-4e0a-91a6-2d74e58cd6a9"]
+ StyleBox["\n", "Bold",
+  LineColor->RGBColor[1., 0.5058823529411764, 0.],
+  FrontFaceColor->RGBColor[1., 0.5058823529411764, 0.],
+  BackFaceColor->RGBColor[1., 0.5058823529411764, 0.],
+  GraphicsColor->RGBColor[1., 0.5058823529411764, 0.],
+  FontColor->RGBColor[1., 0.5058823529411764, 0.]],
+ "Optimise our implementation of the stack-based recursive function and \
+explore even simpler arithmetic operations."
+}], "Text",
+ CellChangeTimes->{{3.929700930429613*^9, 
+  3.929700954616701*^9}},ExpressionUUID->"c68a4ced-f50c-4e0a-91a6-\
+2d74e58cd6a9"]
 }, Open  ]]
 },
 ScreenStyleEnvironment->"SlideShow",
 WindowSize->{Full, Full},
 WindowMargins->{{208, Automatic}, {12, Automatic}},
-Magnification:>1.5 Inherited,
 FrontEndVersion->"14.0 for Mac OS X x86 (64-bit) (December 12, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"7b5b0c16-5ae7-45be-9183-74a4e78c8bb7"
@@ -9687,37 +9713,38 @@ ExpressionUUID->"7b5b0c16-5ae7-45be-9183-74a4e78c8bb7"
 (*CellTagsOutline
 CellTagsIndex->{
  "SlideShowHeader"->{
-  Cell[151616, 2547, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"e819719a-311e-4030-b2fe-74dfc05ee2ca",
+  Cell[151139, 2534, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"e819719a-311e-4030-b2fe-74dfc05ee2ca",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 583792, 9688}
+ {"SlideShowHeader", 584950, 9714}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1017, 36, 98, InheritFromParent,ExpressionUUID->"5e2e60af-070b-46d4-be5b-7b58c03e6941"],
+Cell[558, 20, 1017, 36, 65, InheritFromParent,ExpressionUUID->"5e2e60af-070b-46d4-be5b-7b58c03e6941"],
 Cell[CellGroupData[{
-Cell[1600, 60, 296, 6, 447, "Title",ExpressionUUID->"078130d1-f04f-48d2-bc17-bd16d09e735e"],
-Cell[1899, 68, 432, 11, 73, "Text",ExpressionUUID->"9485ad39-2faa-4b2a-b269-f22f0316f705"],
-Cell[2334, 81, 472, 11, 73, "Text",ExpressionUUID->"50314038-6b5d-4ff1-8f91-eb5e09c4fb8a"],
-Cell[2809, 94, 148309, 2438, 625, InheritFromParent,ExpressionUUID->"cda8cd94-17dc-42aa-8288-37249fda15a6"],
-Cell[151121, 2534, 458, 8, 121, "Text",ExpressionUUID->"f3362606-58c9-4f1d-a841-17319a83ce63"]
+Cell[1600, 60, 296, 6, 204, "Title",ExpressionUUID->"078130d1-f04f-48d2-bc17-bd16d09e735e"],
+Cell[1899, 68, 432, 11, 49, "Text",ExpressionUUID->"9485ad39-2faa-4b2a-b269-f22f0316f705"],
+Cell[2334, 81, 148307, 2438, 434, InheritFromParent,ExpressionUUID->"cda8cd94-17dc-42aa-8288-37249fda15a6"],
+Cell[150644, 2521, 458, 8, 49, "Text",ExpressionUUID->"f3362606-58c9-4f1d-a841-17319a83ce63"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[151616, 2547, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"e819719a-311e-4030-b2fe-74dfc05ee2ca",
+Cell[151139, 2534, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"e819719a-311e-4030-b2fe-74dfc05ee2ca",
  CellTags->"SlideShowHeader"],
-Cell[151741, 2551, 588, 10, 168, "Text",ExpressionUUID->"6e2a07bc-8092-4721-b122-c0e6fac52af2"],
-Cell[152332, 2563, 384, 6, 73, "Text",ExpressionUUID->"33c3e667-8fdf-4113-a1a3-d59147328617"],
-Cell[152719, 2571, 122, 0, 73, "Text",ExpressionUUID->"7f13bdd4-fd29-484e-a6b9-7a197f9255a7"],
-Cell[152844, 2573, 21076, 353, 719, "Text",ExpressionUUID->"715d0614-71e3-4b19-942b-79a73480f896"],
-Cell[173923, 2928, 146, 2, 73, "Text",ExpressionUUID->"e754ff30-6564-4ea0-a01d-1fea233fc181"],
-Cell[174072, 2932, 74752, 1234, 777, "Text",ExpressionUUID->"27b30495-64b2-4007-bc3a-f9b0d012ee44"],
-Cell[248827, 4168, 156439, 2572, 811, "Text",ExpressionUUID->"83300d4b-953e-427e-94ea-6af76186e1d4"],
-Cell[405269, 6742, 177530, 2918, 823, "Text",ExpressionUUID->"f6a4f0b3-06b1-4a64-b7d0-86991a546810"],
-Cell[582802, 9662, 550, 10, 168, "Text",ExpressionUUID->"c68a4ced-f50c-4e0a-91a6-2d74e58cd6a9"]
+Cell[151264, 2538, 654, 11, 56, "Text",ExpressionUUID->"6e2a07bc-8092-4721-b122-c0e6fac52af2"],
+Cell[151921, 2551, 378, 8, 81, "Text",ExpressionUUID->"28ebebd7-364c-4080-937e-8a33ba56230f"],
+Cell[152302, 2561, 458, 8, 56, "Text",ExpressionUUID->"33c3e667-8fdf-4113-a1a3-d59147328617"],
+Cell[152763, 2571, 271, 5, 49, "Text",ExpressionUUID->"7f13bdd4-fd29-484e-a6b9-7a197f9255a7"],
+Cell[153037, 2578, 21076, 353, 440, "Text",ExpressionUUID->"715d0614-71e3-4b19-942b-79a73480f896"],
+Cell[174116, 2933, 556, 9, 56, "Text",ExpressionUUID->"e754ff30-6564-4ea0-a01d-1fea233fc181"],
+Cell[174675, 2944, 253, 5, 49, "Text",ExpressionUUID->"fe22aaec-0666-471a-b0b4-9d05eb0d4834"],
+Cell[174931, 2951, 74752, 1234, 518, "Text",ExpressionUUID->"27b30495-64b2-4007-bc3a-f9b0d012ee44"],
+Cell[249686, 4187, 156439, 2572, 541, "Text",ExpressionUUID->"83300d4b-953e-427e-94ea-6af76186e1d4"],
+Cell[406128, 6761, 177530, 2918, 549, "Text",ExpressionUUID->"f6a4f0b3-06b1-4a64-b7d0-86991a546810"],
+Cell[583661, 9681, 879, 18, 88, "Text",ExpressionUUID->"c68a4ced-f50c-4e0a-91a6-2d74e58cd6a9"]
 }, Open  ]]
 }
 ]
