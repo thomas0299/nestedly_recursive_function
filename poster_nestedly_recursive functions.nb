@@ -10,18 +10,19 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    155918,       2650]
-NotebookOptionsPosition[    152230,       2560]
-NotebookOutlinePosition[    154760,       2633]
-CellTagsIndexPosition[    154717,       2630]
+NotebookDataLength[    156035,       2652]
+NotebookOptionsPosition[    152347,       2562]
+NotebookOutlinePosition[    154877,       2635]
+CellTagsIndexPosition[    154834,       2632]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["WOLFRAM SUMMER SCHOOL 2023", "Title",
+Cell["WOLFRAM SUMMER SCHOOL 2024", "Title",
  CellMargins->{{0, 3}, {0, 30}},
+ CellChangeTimes->{{3.9297032873382463`*^9, 3.929703287633788*^9}},
  TextAlignment->Center,
  FontSize->22,
  FontColor->GrayLevel[
@@ -2499,10 +2500,11 @@ Cell["GOAL", "Subsubsection",
 Cell["\<\
 Find simple functional forms that exhibit complex behaviors. Focus on the \
 call graphs of nestedly recursive functions. Implement a stack-based \
-recursive function from scratch. .\
+recursive function from scratch.\
 \>", "Text",
- CellChangeTimes->{{3.929625510433107*^9, 
-  3.929625531110222*^9}},ExpressionUUID->"30e1adb3-65be-461c-8c82-\
+ CellChangeTimes->{{3.929625510433107*^9, 3.929625531110222*^9}, {
+  3.9297033574438763`*^9, 
+  3.929703357630147*^9}},ExpressionUUID->"30e1adb3-65be-461c-8c82-\
 4e87c506128b"]
 }, Open  ]],
 
@@ -2633,23 +2635,23 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 201, 5, 59, "Title",ExpressionUUID->"0d7e0641-02d3-4c8b-8fe6-a87e622cbe19"],
-Cell[784, 29, 301, 6, 73, "Title",ExpressionUUID->"f34a5bc0-4eb5-4a6b-aa0e-c3b05df341f7"],
-Cell[1088, 37, 197, 9, 35, "Text",ExpressionUUID->"5318fb4a-006b-4308-83f8-a6794de88b7f"],
-Cell[1288, 48, 95, 1, 35, "Text",ExpressionUUID->"b672de50-7cf3-47cd-ac42-a559f1374be0"],
-Cell[1386, 51, 148307, 2438, 316, InheritFromParent,ExpressionUUID->"b5b37a8c-4108-4ad0-a711-f9500afdd653"],
+Cell[580, 22, 269, 6, 59, "Title",ExpressionUUID->"0d7e0641-02d3-4c8b-8fe6-a87e622cbe19"],
+Cell[852, 30, 301, 6, 73, "Title",ExpressionUUID->"f34a5bc0-4eb5-4a6b-aa0e-c3b05df341f7"],
+Cell[1156, 38, 197, 9, 35, "Text",ExpressionUUID->"5318fb4a-006b-4308-83f8-a6794de88b7f"],
+Cell[1356, 49, 95, 1, 35, "Text",ExpressionUUID->"b672de50-7cf3-47cd-ac42-a559f1374be0"],
+Cell[1454, 52, 148307, 2438, 316, InheritFromParent,ExpressionUUID->"b5b37a8c-4108-4ad0-a711-f9500afdd653"],
 Cell[CellGroupData[{
-Cell[149718, 2493, 154, 3, 45, "Subsubsection",ExpressionUUID->"f0d5ed27-7b43-494d-b3bc-6da454a01090"],
-Cell[149875, 2498, 331, 7, 35, "Text",ExpressionUUID->"30e1adb3-65be-461c-8c82-4e87c506128b"]
+Cell[149786, 2494, 154, 3, 45, "Subsubsection",ExpressionUUID->"f0d5ed27-7b43-494d-b3bc-6da454a01090"],
+Cell[149943, 2499, 380, 8, 35, "Text",ExpressionUUID->"30e1adb3-65be-461c-8c82-4e87c506128b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[150243, 2510, 169, 3, 45, "Subsubsection",ExpressionUUID->"aa054e7e-413f-46c0-ad0f-413ac25ab415"],
-Cell[150415, 2515, 377, 7, 58, "Text",ExpressionUUID->"05e5fe9d-17df-4e5a-b1ec-fb928ac18f18"]
+Cell[150360, 2512, 169, 3, 45, "Subsubsection",ExpressionUUID->"aa054e7e-413f-46c0-ad0f-413ac25ab415"],
+Cell[150532, 2517, 377, 7, 58, "Text",ExpressionUUID->"05e5fe9d-17df-4e5a-b1ec-fb928ac18f18"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[150829, 2527, 162, 3, 45, "Subsubsection",ExpressionUUID->"5f609d2e-39ae-4ae3-af43-b78b6bb903ad"],
-Cell[150994, 2532, 237, 3, 35, "Text",ExpressionUUID->"d6e82407-a9d5-4643-a814-22919f069383"],
-Cell[151234, 2537, 968, 19, 85, "Output",ExpressionUUID->"833c259d-5837-45b6-b5eb-d5a9eb47aa88"]
+Cell[150946, 2529, 162, 3, 45, "Subsubsection",ExpressionUUID->"5f609d2e-39ae-4ae3-af43-b78b6bb903ad"],
+Cell[151111, 2534, 237, 3, 35, "Text",ExpressionUUID->"d6e82407-a9d5-4643-a814-22919f069383"],
+Cell[151351, 2539, 968, 19, 85, "Output",ExpressionUUID->"833c259d-5837-45b6-b5eb-d5a9eb47aa88"]
 }, Open  ]]
 }, Open  ]]
 }
